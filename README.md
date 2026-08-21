@@ -1,4 +1,4 @@
-# working_with_python_libraries
+### working_with_python_libraries
 
 Working with Python Libraries: Pandas, NumPy & Crop Data Analysis
 
@@ -6,7 +6,7 @@ This repository contains Python scripts and datasets demonstrating data analysis
 
 ---
 
-📜 Repository Contents
+#📜 Repository Contents
 
 * pandas_script(crop_production).py : Python script that loads, cleans, and processes the crop production dataset using Pandas.
 * crop_production.csv : Primary dataset containing crop yield and production records.
@@ -16,7 +16,7 @@ This repository contains Python scripts and datasets demonstrating data analysis
 
 ---
 
-📂 Project 1: Basic Crop Production Analysis (Pandas)
+##📂 Project 1: Basic Crop Production Analysis (Pandas)
 
 A foundational data analysis script designed to load, clean, and process historical crop production datasets using Pandas.
 
@@ -26,7 +26,7 @@ Key Features:
 
 ---
 
-📂 Project 2: Precision Agriculture & Yield Analytics (Pandas + NumPy)
+##📂 Project 2: Precision Agriculture & Yield Analytics (Pandas + NumPy)
 
 A data analysis tool built with Pandas and NumPy to evaluate agricultural soil metrics, climate factors, and crop yield performance.
 
@@ -42,7 +42,7 @@ Key Features:
 
 ---
 
-🚀 Getting Started
+##🚀 Getting Started
 
 Prerequisites
 
