@@ -1,18 +1,20 @@
-### working_with_python_libraries
+# working_with_python_libraries
 
-Working with Python Libraries: Pandas, NumPy & Crop Data Analysis
+Working with Python Libraries: Pandas, NumPy & Matplotlib Analytics
 
-This repository contains Python scripts and datasets demonstrating data analysis, processing, and vectorized mathematical operations using Pandas and NumPy libraries.
+This repository contains Python scripts and datasets demonstrating data analysis, mathematical vectorization, and data visualization using core Python libraries.
 
 ---
 
-# 📜 Repository Contents
+### 📜 Repository Contents
 
-* pandas_script(crop_production).py : Python script that loads, cleans, and processes the crop production dataset using Pandas.
-* crop_production.csv : Primary dataset containing crop yield and production records.
-* precision_agriculture_analytics.py : Python script performing advanced crop yield filtering, soil pH classification, performance metrics, and NumPy vectorization.
-* crop_yield_dataset.csv : Dataset containing crop yields, environmental metrics, and soil parameters.
-* README.md : Project overview and documentation.
+* pandas_script(crop_production).py : Script that loads, cleans, and processes crop production datasets using Pandas.
+* crop_production.csv : Primary dataset containing historical crop yield and production records.
+* precision_agriculture_analytics.py : Analytics pipeline performing crop yield filtering, soil metrics evaluation, and CSV summary export.
+* crop_yield_dataset.csv : Environmental dataset containing soil parameters, temperature, humidity, NPK metrics, and crop yields.
+* 03_crop_data_visualization.py : Visualization script generating statistical charts and multi-panel figures using Matplotlib.
+* crop_yield_visualizations.png : Exported 2x2 statistical plot panel.
+* README.md : Project documentation and workflow details.
 
 ---
 
@@ -31,35 +33,53 @@ Key Features:
 A data analysis tool built with Pandas and NumPy to evaluate agricultural soil metrics, climate factors, and crop yield performance.
 
 Key Features:
-* Dynamic Crop Filtering: Search and filter dataset records dynamically based on user input.
-* Yield Sorting: Sort crop production data by total yield in descending order.
-* Vectorized Math with NumPy:
-  * Calculate core yield metrics (Max, Mean, Min).
-  * Categorize soil pH into Acidic, Optimal, or Alkaline.
-  * Mark performance levels (High vs Low) relative to mean yield benchmarks.
-* High Performance Agricultural Metrics: Isolate top yielding crops to evaluate average temperature, humidity levels, and total NPK (Nitrogen + Phosphorus + Potassium) fertilizer inputs.
-* Automated CSV Reports: Generate crop specific analytics files directly (e.g., corn_analytics.csv).
+* Dynamic Crop Filtering: Search and filter dataset records based on user input.
+* Yield Sorting: Sort crop records by production yield in descending order.
+* Vectorized Math: Calculate maximum, minimum, and mean performance metrics using NumPy functions.
+* Performance Benchmark: Categorize high-yielding crops relative to mean yield averages.
+* Automated CSV Reports: Export structured analytics summaries directly to dynamic CSV files.
 
 ---
 
-## 🚀 Getting Started
+## 📂 Project 3: Agricultural Data Visualization (Matplotlib)
+
+A visualization pipeline built using Matplotlib to create multi-panel statistical plots that reveal environmental relationships, yield spreads, and distribution trends.
+
+Key Features:
+* Multi-Panel Grid Layout: Utilizes a 2x2 subplot layout to compare four analytical charts simultaneously.
+* Bar Chart: Evaluates average yield across top crop categories.
+* Multidimensional Scatter Plot: Maps temperature against crop yield with a colorbar overlay for humidity.
+* Histogram Analysis: Displays soil pH distribution with an explicit mean reference line.
+* Boxplot Statistical Analysis: Visualizes the median, interquartile range (IQR middle 50%), and maximum yield potential across soil types.
+
+### Statistical Output Preview
+
+![Crop Yield Visualizations](crop_yield_visualizations.png)
+
+---
+
+🚀 Getting Started
 
 Prerequisites
 
-Make sure you have Python, Pandas, and NumPy installed:
+Ensure you have Python, Pandas, NumPy, and Matplotlib installed:
 
-pip install pandas numpy
+pip install pandas numpy matplotlib
 
-Running the Scripts
+Running the Projects
 
-1. Project 1 (Crop Production Analysis):
+1. Basic Pandas Script:
    python pandas_script(crop_production).py
 
-2. Project 2 (Precision Agriculture Analytics):
+2. Precision Agriculture Script:
    python precision_agriculture_analytics.py
+
+3. Data Visualization Script:
+   python 03_crop_data_visualization.py
 
 ---
 
 🤖 AI Collaboration Disclosure
 
-Projects within this repository utilize AI tools (Gemini) as modern software development companions for code optimization, debugging, and library implementation learning.
+Projects within this repository utilize AI tools as modern software development companions for code optimization, layout debugging, and library implementation learning.
+mentation learning.
