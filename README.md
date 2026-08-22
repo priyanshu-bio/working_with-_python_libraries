@@ -58,6 +58,52 @@ Key Features:
 
 ---
 
+## 📊 Project 4: Seaborn Crop Correlation & Visual Analytics
+
+An interactive data analysis pipeline built with Python, Pandas, and Seaborn. This tool allows users to analyze agricultural metrics (such as Temperature, Humidity, Soil pH, and NPK levels) and uncover key variable correlations for any specific crop in the dataset.
+
+---
+
+### 🚀 Features
+
+* **Interactive Crop Filtering**: Dynamically analyzes dataset metrics based on user input with built-in validation loops.
+* **Correlation Heatmap**: Generates a custom Seaborn heatmap illustrating positive, negative, and neutral relationships between soil and environmental variables.
+* **Pairwise Visual Analytics**: Produces pair plots to visualize scatter distributions and key metric density across soil quality and crop yields.
+* **Automated Asset Export**: Exports high-resolution visualizations directly to disk using `bbox_inches='tight'` to eliminate whitespace clipping.
+
+---
+
+### 🛠️ Tech Stack & Libraries
+
+* **Python 3.x**
+* **Pandas** — Data manipulation and feature engineering (`total_NPK`)
+* **Seaborn** — High-level statistical data visualization (`heatmap`, `pairplot`)
+* **Matplotlib** — Plot customization and figure export (`pyplot`)
+
+---
+
+### 📸 Key Output Visualizations
+
+#### 1. Correlation Heatmap
+Visualizes multi-variable linear correlations for the selected crop on a scale from `-1.00` to `+1.00`.
+
+![Correlation Heatmap](seaborn_heatmap.png)
+
+#### 2. Pairwise Feature Distribution Plot
+Displays bivariate scatter plots and univariate histograms across selected environmental factors.
+
+![Seaborn Pairplot](seaborn_pairplot.png)
+
+---
+
+### ⚡ How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   cd your-repo-name
+
+
 🚀 Getting Started
 
 Prerequisites
