@@ -58,7 +58,7 @@ Key Features:
 
 ---
 
-## 📊 Project 4: Seaborn Crop Correlation & Visual Analytics
+## 📂 Project 4: Seaborn Crop Correlation & Visual Analytics
 
 An interactive data analysis pipeline built with Python, Pandas, and Seaborn. This tool allows users to analyze agricultural metrics (such as Temperature, Humidity, Soil pH, and NPK levels) and uncover key variable correlations for any specific crop in the dataset.
 
@@ -96,12 +96,6 @@ Displays bivariate scatter plots and univariate histograms across selected envir
 
 ---
 
-### ⚡ How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-   cd your-repo-name
 
 
 🚀 Getting Started
