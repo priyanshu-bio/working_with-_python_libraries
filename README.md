@@ -1,4 +1,4 @@
-# 𝐰𝐨𝐫𝐤𝐢𝐧𝐠_𝐰𝐢𝐭𝐡_𝐩𝐲𝐭𝐡𝐨𝐧_𝐥𝐢𝐛𝐫𝐚𝐫𝐢𝐞𝐬
+# 📦 𝐰𝐨𝐫𝐤𝐢𝐧𝐠_𝐰𝐢𝐭𝐡_𝐩𝐲𝐭𝐡𝐨𝐧_𝐥𝐢𝐛𝐫𝐚𝐫𝐢𝐞𝐬
 
 Working with Python Libraries: Pandas, NumPy & Matplotlib Analytics
 
