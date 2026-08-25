@@ -69,7 +69,7 @@ try:
 
         # C weffekmgmekgoer
 
-        # --- PLACE THIS INSIDE 'if not result.empty:' AFTER YOUR CALCULATIONS ---
+        
 
       # 1. Store summary metrics in a Dictionary
         summary_data = {
