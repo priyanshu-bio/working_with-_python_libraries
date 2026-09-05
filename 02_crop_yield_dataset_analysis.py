@@ -16,7 +16,7 @@ try:
         yields = result["Crop_Yield"].to_numpy()
 
         
-        # 1. Yield Statistics
+   
 
         mean_yield = np.mean(yields)
         max_yield = np.max(yields)
@@ -24,7 +24,7 @@ try:
         mean_temperature = np.mean(result["Temperature"].to_numpy())
 
 
-        # 2. Add Performance Flag using np.where
+     
         result["Performance"] = np.where(result["Crop_Yield"] >= mean_yield, "High", "Low")
 
 
@@ -39,7 +39,7 @@ try:
         avg_npk = np.mean(total_npk)
        
        
-        # 3. Categorize Soil pH using np.select
+       
         conditions = [
             result["Soil_pH"] < 6.0,
             (result["Soil_pH"] >= 6.0) & (result["Soil_pH"] <= 7.5),
@@ -49,7 +49,7 @@ try:
         choices = ["Acidic", "Optimal", "Alkaline"]
         result["pH_Status"] = np.select(conditions, choices, default="Unknown")
 
-        # Display Data & Stats
+        
         print(f"\n------------- DATASET FOR {cropp.upper()} -------------")
         print(result.to_string(index=False))
 
@@ -71,7 +71,7 @@ try:
 
         
 
-      # 1. Store summary metrics in a Dictionary
+     
         summary_data = {
             "Crop_Type": [cropp],
             "Max_Yield": [round(max_yield, 2)],
@@ -81,10 +81,10 @@ try:
             "High_Perf_Avg_Humidity_Pct": [round(avg_humidity, 2)],
             "High_Perf_Avg_NPK_kg_ha": [round(avg_npk, 2)],}
 
-# 2. Convert dictionary to Pandas DataFrame 
+ 
         summary_df = pd.DataFrame(summary_data)
 
-# 3. Save to a CSV file named dynamically after the crop
+
         output_filename = f"{cropp.lower()}_summary_analytics.csv"
         summary_df.to_csv(output_filename, index=False)
 
